@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.license       = "MIT"
 
-  s.add_runtime_dependency('gosu', '~> 0.7.41')
+  s.add_runtime_dependency('gosu_android')
   s.add_runtime_dependency('chingu', '~> 0.9rc7')
   s.add_runtime_dependency('clipboard', '~> 0.9.9')
   s.add_runtime_dependency('ffi', '~> 1.0.11')
